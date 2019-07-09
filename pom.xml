@@ -30,7 +30,7 @@
         <springfox.version>2.9.2</springfox.version>
     </properties>
 
-    <pluginRepositories>
+    <!--<pluginRepositories>
         <pluginRepository>
             <id>jcenter-snapshots</id>
             <name>jcenter</name>
@@ -60,7 +60,7 @@
             <name>jcenter</name>
             <url>http://oss.jfrog.org/artifactory/oss-snapshot-local/</url>
         </repository>
-    </repositories>
+    </repositories>-->
 
     <dependencies>
         <dependency>
@@ -191,7 +191,7 @@
                     <config>
                         <swagger2markup.markupLanguage>ASCIIDOC</swagger2markup.markupLanguage>
                         <swagger2markup.pathsGroupedBy>TAGS</swagger2markup.pathsGroupedBy>
-
+                        <swagger2markup.outputLanguage>ZH</swagger2markup.outputLanguage>
                         <swagger2markup.extensions.dynamicOverview.contentPath>${project.basedir}/src/docs/asciidoc/extensions/overview</swagger2markup.extensions.dynamicOverview.contentPath>
                         <swagger2markup.extensions.dynamicDefinitions.contentPath>${project.basedir}/src/docs/asciidoc/extensions/definitions</swagger2markup.extensions.dynamicDefinitions.contentPath>
                         <swagger2markup.extensions.dynamicPaths.contentPath>${project.basedir}/src/docs/asciidoc/extensions/paths</swagger2markup.extensions.dynamicPaths.contentPath>
